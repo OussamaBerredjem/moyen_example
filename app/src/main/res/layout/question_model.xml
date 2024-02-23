@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/qst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="how are you ?"
+        android:paddingLeft="20dp"
+        android:textSize="30sp"></TextView>
+    <RadioGroup
+        android:gravity="center"
+        android:id="@+id/radio_groupe1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/reponse1"
+            android:text="reponse 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:id="@+id/reponse2"
+
+            android:text="reponse 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:id="@+id/reponse3"
+
+            android:text="reponse 3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RadioButton>
+
+    </RadioGroup>
+
+</LinearLayout>
